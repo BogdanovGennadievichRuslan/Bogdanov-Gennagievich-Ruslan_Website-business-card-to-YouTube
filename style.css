@@ -12,15 +12,26 @@ body{
 	font-family: 'Open Sans', sans-serif;	
 }
 
+
+main .main-welcome{
+ 	width: 100%; 	
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+
 main .main-container{
 	display: flex; 
 	flex-direction: column;
-	width: 100%;
+	justify-content: center;	
+	width: 50%;
 }
+
 main .main-container{
 	background: #000;
 	text-align: center;
-	margin-top: 10%;
 }
 main .main-container p{
 	color: #999999;
@@ -37,14 +48,13 @@ main .main-container h1{
 }
 
 
-.wrapper{
-	width: 80%;
-	margin: 0 auto;
-}
+
 
 .social{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+
 }
 .social img{
 	margin-left: 12px;
