@@ -39,7 +39,7 @@ main .main-container p{
 }
 main .main-container h1{
 	color: #999999;
-	font-size: 44px;
+	font-size: 22px;
 		
 }
 
@@ -54,6 +54,7 @@ main .main-container h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 
 }
 .social img{
