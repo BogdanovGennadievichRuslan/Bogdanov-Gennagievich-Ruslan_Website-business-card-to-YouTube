@@ -26,7 +26,7 @@ main .main-container{
 	display: flex; 
 	flex-direction: column;
 	justify-content: center;	
-	min-width: 45%;
+	min-width: 100%;
 }
 
 main .main-container{
