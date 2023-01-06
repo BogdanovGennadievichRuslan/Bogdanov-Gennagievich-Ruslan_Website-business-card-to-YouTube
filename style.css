@@ -14,7 +14,8 @@ body{
 
 
 main .main-welcome{
- 	width: 100%; 	
+ 	width: 100%;
+	min-width: 560px; 	
 }
 
 .wrapper{
@@ -33,6 +34,7 @@ main .main-container{
 	background: #000;
 	text-align: center;
 }
+
 main .main-container p{
 	color: #999999;
 	font-size: 20px;
